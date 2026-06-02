@@ -6,8 +6,12 @@
 
 3. Install Node.js/npm (I recommend [installing nvm](https://github.com/nvm-sh/nvm), it installs everything you need for you)
 
-4. `npm install`
+4. Clone repository: `git clone https://github.com/HAI-lab-UVA/Social-Walking-Data-Dashboard.git`
 
-5. `npm run dev`
+5. Open folder: `cd Social-Walking-Data-Dashboard`
 
-6. Open in browser: http://localhost:3000/
+6. Install app dependencies: `npm install`
+
+7. Start server: `npm run dev`
+
+8. Open in browser: http://localhost:3000/
