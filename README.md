@@ -4,8 +4,10 @@
 
 2. Ask Michelle for admin account (can give you mine or you can make your own in Firebase).
 
-3. `npm install`
+3. Install Node.js/npm (I recommend [installing nvm](https://github.com/nvm-sh/nvm), it installs everything you need for you)
 
-4. `npm run dev`
+4. `npm install`
 
-5. Open browser http://localhost:3000/
+5. `npm run dev`
+
+6. Open in browser: http://localhost:3000/
