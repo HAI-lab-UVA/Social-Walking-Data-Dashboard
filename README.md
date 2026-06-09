@@ -1,4 +1,6 @@
-# First Time Setup
+# Social Walking Data Dashboard
+
+## First Time Setup
 
 1. Ask Michelle for firebase-config.ts file. Place in app/ folder.
 
@@ -16,7 +18,7 @@
 
 8. Open in browser: http://localhost:3000/
 
-# Updating
+## Updating
 
 1. Open folder: `cd Social-Walking-Data-Dashboard`
 
