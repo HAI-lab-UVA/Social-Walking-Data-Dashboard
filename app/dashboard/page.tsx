@@ -467,7 +467,7 @@ export default function DashboardPage() {
               />
               {maxWalkMinutes}
             </div>
-            <div className="italic">
+            <div className="italic text-gray-700">
               Start point: filled in white circle. End point: filled in black
               circle. Click on points to see details.
             </div>
@@ -535,7 +535,7 @@ export default function DashboardPage() {
                 )}
               </div>
             </div>
-            <div className="italic">
+            <div className="italic text-gray-700">
               Number of location points removes points recorded within the same
               second and does not include the start/end points
             </div>
