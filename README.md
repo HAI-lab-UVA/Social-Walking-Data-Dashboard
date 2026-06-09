@@ -1,4 +1,4 @@
-# Instructions
+# First Time Setup
 
 1. Ask Michelle for firebase-config.ts file. Place in app/ folder.
 
@@ -15,3 +15,15 @@
 7. Start server: `npm run dev`
 
 8. Open in browser: http://localhost:3000/
+
+# Updating
+
+1. Open folder: `cd Social-Walking-Data-Dashboard`
+
+2. Pull newest changes from main: `git checkout main && git pull`
+
+3. Update app dependencies: `npm install`
+
+4. Start server: `npm run dev`
+
+5. Open in browser: http://localhost:3000/
