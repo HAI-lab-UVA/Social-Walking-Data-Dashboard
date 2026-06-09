@@ -338,20 +338,14 @@ export default function DashboardPage() {
           )
           .add(walkMinutesUpperBound, "minute");
 
-        console.log(
-          `pathnodes min ${formatDateTime(pathNodes[0].timestamp)}, ${walkMinutesUpperBound}`,
-        );
-        console.log(
-          `map date upper range ${formatDateTime(mapDateUpperRange)}`,
-        );
-        console.log(
-          `pathnodes max ${formatDateTime(pathNodes[pathNodes.length - 1].timestamp)}`,
-        );
-
         const upperIndex = pathNodes.findLastIndex((n) =>
           n.timestamp.isSameOrBefore(mapDateUpperRange),
         );
-        return pathNodes.slice(0, upperIndex);
+        if (upperIndex > 0) {
+          return pathNodes.slice(0, upperIndex);
+        } else {
+          return [];
+        }
       }
     }
   };
