@@ -39,7 +39,7 @@ export default function LoginPage() {
           onChange={(e) => setEmail(e.target.value)}
           required
           autoComplete="email"
-          className="bg-white text-black py-2 px-4 rounded-full"
+          className="bg-gray-300 text-black py-2 px-4 rounded-full"
         />
 
         <input
@@ -50,7 +50,7 @@ export default function LoginPage() {
           onChange={(e) => setPassword(e.target.value)}
           required
           autoComplete="current-password"
-          className="bg-white text-black py-2 px-4 rounded-full"
+          className="bg-gray-300 text-black py-2 px-4 rounded-full"
         />
 
         <button
